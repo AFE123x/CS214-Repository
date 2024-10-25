@@ -1,43 +1,8 @@
 # My Shell
 
-Project: MyShell
-Due Date: 4/8/24 (11:59PM)
-authors: Arun Felix (ajf277), Kareem Jackson (kkj47)
+- This is a shell implementation developed using unix libraries
 
-
-- This is a project that is our implementation of the bash shell with functioning built in functions (pwd, cd, which, exit) and the use of wildcards
-, pipes, redirects, and conditions.
-
-
-## What we did
-
-implemented command line parsing, executing programs/files, handle redirects and piping. 
-and partial execution of wildcard usage
-
-## How to Run - examples
-**after extracting, cd into P3**
-**mysh is the only important file**
-**to recompile you can run "make" in P3**
-
-Interactive 
-**Interactive Mode**
-```txt
-./mysh
-Hello!
-mysh>  
-```
-
-
-**Batch Mode**
-```txt
-cat bash.sh | ./mysh
-\[runs commands in bash.sh]
-./mysh bash.sh
-\[runs commands in bash.sh]
-```
-
-
-## Tests Examples
+## Tests
 
 ### Test one - testing  single redirects
 
